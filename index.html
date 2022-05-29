@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7695d0fb5b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="class4">
+            <div class="class3">
+                <div class="class2">
+                    <div class="class1">
+                        <p class="titel">Tasks <span class="titel1">List</span></p>
+                        <i id="icon" class="fa-solid fa-circle-plus" onclick="addpop()"></i>
+                        <span id="task"> Add Item</span>
+                        <p id="item">No items in the Todo List </p>
+                    </div>
+                    <div id="popup">
+                        <h2 id="l2">Add New List</h2>
+                        <input type="text" placeholder="Enter your task" value="" id="card" name="card"><br><br>
+                        <button id="add" onclick="addtask()">Add</button>
+                        <button id="close">Close</button>
+                    </div>
+                </div>
+                <div id="popup2">
+                    <h2 id="l2">Add New List</h2>
+                    <input type="text" placeholder="Enter your task" value="" id="card2" name="card"><br><br>
+                    <button id="add1" onclick="addtask2()">Add</button>
+                    <button id="close1">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="parent"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
